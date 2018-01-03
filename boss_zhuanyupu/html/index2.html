@@ -1,0 +1,67 @@
+<html>
+<head>
+	<meta charset="utf-8">
+ 	<meta name="renderer" content="webkit"/>
+	<title>boss常用流程</title>
+	<meta name="keywords" content="navigation"/>
+	<meta name="descration" contant="work"/>
+    <meta name="viewport" content="initial-scale=1,width=device-width,maximum-scale=1,minimum-scale=1,user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name='apple-touch-fullscreen' content='yes'>
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="address=no">
+	<link type="text/css" rel="stylesheet"  href="../css/index.css" source="widget"/>
+</head>
+<body>
+    <div class="pc"></div>
+    <div id="parent_two"> 
+        <ul id="btn">
+            <li class="cur">专票<br/>事项</li>
+            <li>普票<br/>事项</li>
+        </ul>
+        <div id="box">
+            <div style="display:block;">
+                <h4>非常重要哟</h4>
+                <b>1.百度【一般纳税人资格查询】，将有增值税一般纳税人字样的内容截图，申请发票时上传系统。样例见下文。<br/>
+                2.发票抬头：合同名称为甲公司，则发票名称为甲公司<br/>
+                3.发票内容：人力资源服务费/咨询服务费/技术服务费/招聘服务费/信息服务费<br/>
+                4.付款方式：</b><p>1.甲公司对公打款至我司对公账号<br/>2.个人打款至我司个人账号+个人代付款协议，样例见下文<br/>3.乙公司打款至我司个人账号+公司代付款协议。样例见下文</p>
+                <ol>
+                    <li class="tp_one"></li>
+                    <li class="tp_two"></li>
+                    <li class="tp_three"></li>
+                </ol>
+            </div>
+            <div>
+                <h4>非常重要哟</h4>
+                <b>1.发票抬头：合同名称为甲公司，则发票名称为甲公司<br/>2.发票内容：人力资源服务费/咨询服务费/技术服务费/招聘服务费/信息服务费<br/>3.付款方式：</b><p>1.甲公司对公打款至我司对公账号<br/>2.个人打款至我司对公账号+个人代付款协议。样例见下文<br/>3.乙公司打款至我司对公账号+公司代付款协议。样例见下文</p>
+                <ol>
+                    <li class="tp_two"></li>
+                    <li class="tp_three"></li>
+                </ol>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+        var oParent = document.getElementById('parent_two');
+        var oBtnParent = document.getElementById('btn');
+        var oBtn = oBtnParent.getElementsByTagName('li');
+        var oBoxParent = document.getElementById('box');
+        var oBox = oBoxParent.getElementsByTagName('div');
+        var indexNum = 0;
+        for(var i= 0,len=oBtn.length;i<len;i++){
+            oBtn[i].index = i;
+            oBtn[i].onclick = function(){
+                var iNum = this.index;
+                for(var j=0,lens=oBox.length;j<lens;j++){
+                    oBtn[j].className='';
+                    oBox[j].style.display = 'none';
+                }
+                oBtn[iNum].className='cur';
+                oBox[iNum].style.display = 'block';
+            }
+        }
+    </script> 
+</body>
+</html> 
