@@ -1,0 +1,73 @@
+<html>
+<head>
+	<meta charset="utf-8">
+ 	<meta name="renderer" content="webkit"/>
+	<title>boss常用流程3</title>
+	<meta name="keywords" content="navigation"/>
+	<meta name="descration" contant="work"/>
+    <meta name="viewport" content="initial-scale=1,width=device-width,maximum-scale=1,minimum-scale=1,user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name='apple-touch-fullscreen' content='yes'>
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="address=no">
+	<link type="text/css" rel="stylesheet"  href="../css/index.css" source="widget"/>
+</head>
+<body>
+    <div class="pc"></div>
+    <div id="parent_one"> 
+        <ul id="btn">
+            <li class="cur">无修改<br/>无折扣</li>
+            <li>无修改<br/>有折扣</li>
+            <li>有修改<br/>无折扣</li>
+            <li>有修改<br/>有折扣</li>
+        </ul>
+        <div id="box">
+            <div style="display:block;">
+                <h4>合同分三步</h4>
+                <p>1.销售同学邮件发送TL审批；<br/>2.TL审批无误后，转发hetong@kanzhun.com；<br/>运营@kanzhun.com；<br/>3.邮件主题：【合同盖章】+【XXX公司】<br/>邮件内容：<br/>客户XXX公司，合作金额为XX，合作期限为XX，因什么什么原因，现申请合同盖章，望批准<br/>打印份数：<br/>邮寄地址：<br/>快递：普通/顺丰
+                    <i class="tip">别忘了向运营同学申请<br/>电子版合同编号哟~<br/>PS：下发至各分公司的手写板空白合同<br/>本身有合同编号的<br/>无需邮件申请</i>
+                </p>
+            </div>
+            <div>
+                <h4>合同分三步</h4>
+                <p>1.销售同学邮件发送TL审批；<br/>2.TL审批无误后，转发城主@kanzhun；<br/>hetong@kanzhun.com；<br/>运营@kanzhun.com；<br/>城主审批无误后即可；<br/>3.邮件主题：【合同折扣审批】+【XXX公司】<br/>邮件内容：<br/>客户XXX公司，合作金额为XX，合作期限为XX，因什么什么原因，现申请折扣，望批准<br/>若不用下发的空白合同，增加打印份数，邮寄地址，快递类型即可。
+                    <i class="tip">若是不用空白合同<br/>别忘了向运营同学申请<br/>电子版合同编号哟~<br/>PS：下发至各分公司的手写板空白合同<br/>本身有合同编号的</i>
+                </p>
+            </div>
+            <div>
+                <h4>合同分三步</h4>
+                <p>1.销售同学发送区总和liqiang@kanzhun.com审批<br/>2.通过后，发送法务 zhangweixuan@kanzhun.com,TL；<br/>抄送 renyanfeng@kanzhun.com 进行合同条款审批；<br/>3.法务确认后，TL转发hetong@kanzhun.com；<br/>运营@kanzhun.com即可；<br/>4.邮件主题：【合同条款审批】+【XXX公司】<br/>邮件内容：<br/>客户XXX公司，已确认合作，条款有修改，望审批<br/>修改内容为：【插入截图】<br/>附件为合同文件<br/>若需要总部先盖章，增加打印份数，邮寄地址，快递类型即可。
+                    <i class="tip">别忘了向运营同学申请<br/>电子版合同编号哟~</i>
+                </p>
+            </div>
+            <div>
+                <h4>合同分三步</h4>
+                <p>1.销售同学发送区总和liqiang@kanzhun.com审批<br/>2.通过后，发送法务 zhangweixuan@kanzhun.com,TL；<br/>抄送 renyanfeng@kanzhun.com 进行合同条款审批；<br/>3.法务确认后，TL转发城主@kanzhun.com;<br/>hetong@kanzhun.com；<br/>运营@kanzhun.com进行折扣审批；<br/>城主审批通过后即可；<br/>4.邮件主题：【合同条款及折扣审批】+【XXX公司】<br/>邮件内容：<br/>客户XXX公司，已确认合作，条款有修改，因什么什么原因，申请折扣，为几折，望审批<br/>修改内容为：【插入截图】<br/>附件为合同文件<br/>若需要总部先盖章，增加打印份数，邮寄地址，快递类型即可。
+                    <i class="tip">别忘了向运营同学申请<br/>电子版合同编号哟~</i>
+                </p>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+        var oParent = document.getElementById('parent_one');
+        var oBtnParent = document.getElementById('btn');
+        var oBtn = oBtnParent.getElementsByTagName('li');
+        var oBoxParent = document.getElementById('box');
+        var oBox = oBoxParent.getElementsByTagName('div');
+        var indexNum = 0;
+        for(var i= 0,len=oBtn.length;i<len;i++){
+            oBtn[i].index = i;
+            oBtn[i].onclick = function(){
+                var iNum = this.index;
+                for(var j=0,lens=oBox.length;j<lens;j++){
+                    oBtn[j].className='';
+                    oBox[j].style.display = 'none';
+                }
+                oBtn[iNum].className='cur';
+                oBox[iNum].style.display = 'block';
+            }
+        }
+    </script> 
+</body>
+</html> 
