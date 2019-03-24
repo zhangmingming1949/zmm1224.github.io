@@ -1,0 +1,753 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <title>用</title>
+   	<link rel="stylesheet" type="" href="">
+   	<style type="text/css">
+    	.clearfix:after {
+            content:'.';
+            display:block;
+            height:0;
+            clear:both;
+            visibility:hidden;
+        }
+        .content_all{
+            padding-top: 40px;
+            height:400px;
+            border:1px pink solid;
+        }
+        li{
+        	list-style: none;
+        	margin: 10px;
+        }
+        h2{
+            padding-top: 10px;
+            line-height: 60px;
+            font-size: 40px;
+        }
+        .yichang{
+            margin:15px;
+            height:200px;
+            border:1px pink solid;
+        } 
+        h3,h4{
+            color:#7a7777;
+        }
+        .two{
+            margin-top: 40px;
+        }
+        .l{
+            float:left;
+            text-align: center;
+        }
+        .r{
+            float:right;
+            border:1px pink solid;
+        }
+        .part{
+            margin-top: 20px;
+        }
+        .content{
+        	margin-bottom: 30px;
+        	padding: 20px 15px 20px 15px;
+        	border: 1px blue solid;
+        }
+        i{
+        	float: left;
+        	font-style: normal;
+        	padding-right: 30px;
+        	line-height: 25px;
+        	font-size: 15px;
+        }
+        .kong{
+        	display: none;
+        }
+        .qd{
+        	margin-right: 20px;
+        	font-size: 16px;
+        	width: 100px;
+        	line-height: 25px;
+        }
+        .dqd{
+        	width: 200px;
+        	text-align: center;
+        }
+        .qdxq{
+        	padding-top:20px;
+        }
+        .qdbta{
+        	font-size: 14px;
+        	font-style: normal;
+        }
+        var{
+        	float: left;
+        	font-size: 12px;
+        	width: 50px;
+        	text-align: center;
+        	margin-right: 12px;
+        	font-style: normal;
+        }
+        .varh{
+        	padding-top:8px; 
+        }
+        .qdbt{
+        	padding-left: 400px;
+        }
+        .cklj{
+        	padding-left: 165px;
+        	padding-right: 165px;
+        	padding-top:8px;
+        }
+        .zskbt{
+        	font-size: 30px;
+        	padding-left: 30px;
+        	line-height: 90px;
+        }
+        .xqd{
+        	font-size: 14px;
+        	padding-bottom: 14px;
+        }
+        .xqdxq{
+        	padding-right: 15px;
+        	font-size: 16px;
+        	width:60px;
+        	text-align: left;
+        }
+    </style>
+</head>
+<body>
+	<div>
+		<div class='zskbt'>知识库</div>
+
+    	<div class='content'>
+	    	<h4>一：渠道头条</h4>
+				<ul>
+					<li class='clearfix'>
+						<div class='l'>1.&nbsp&nbsp3.20日起至收到新通知止,&nbsp</div><div class='l'>渠道蜜蜂试玩/金手指/火箭试玩暂停所有项目投放。</div>
+					</li>
+					<li class='clearfix'>
+						<div class='l'>2.&nbsp&nbsp3.20日起至收到新通知止,&nbsp</div><div class='l'>渠道万普加紧测试评分。</div>
+					</li>
+				</ul>
+	    </div>
+	    <div class='content'>
+	    	<h4>二：本周测试的新渠道</h4>
+				<ul>
+					<li class='clearfix'>
+						<div class='l xqdxq'>贝也赚:</div><div class='l xqdxqa'>接入项目5，跑量反馈项目4，综合效果：优，建议：稳步加量</div>
+					</li>
+					<li class='clearfix'>
+						<div class='l xqdxq'>万普:</div><div class='l xqdxqa'>接入项目6，跑量反馈项目4，综合效果：良，建议：继续测试</div>
+					</li>
+				</ul>
+	    </div>
+	    <div class='content'>
+	    	<h4>三：渠道综合评分列表</h4>
+	    	<ul class='clearfix qdbt'>
+	    		<li class='clearfix l'>
+	    			<h6 class="qdbta">重点数据监测</h6>
+	    			<var>时长小于30s占比</var><var>问题机型占比</var><var>项目投放数量占比</var><var class="cklj">参考量级</var>
+	    		</li>
+	    		<li class='clearfix l'>
+	    			<h6 class="qdbta">渠道基础数据</h6>
+	    			<var class='varh'>总量级</var><var class='varh'>日活</var><var class='varh'>新增</var>
+	    		</li>
+	    	</ul>
+	    	<!-- 渠道详情 -->
+			<ul>
+				<li class='clearfix'>
+					<div class='l'><p class='dqd'>一级首先渠道</p></div>
+					<div class='l'>
+						<ul class='qdxq'>
+							<li class='clearfix'>
+								<div class='l qd'>爱普优邦</div>
+								<div class='l clearfix'>
+									<i>&nbsp5%</i><i>10%</i><i>约90%</i><i>新：&nbsp&nbsp&nbsp1万+</i><i>旧：500</i><i>同产品竞争：0或询问渠道</i><i class='kong'>12345</i><i>100万+</i><i>5万+</i><i>1万+</i>
+								</div>	
+							</li>
+							<li class='clearfix'>
+								<div class='l qd'>小鱼赚钱</div>
+								<div class='l clearfix'>
+									<i>10%</i><i>&nbsp8%</i><i>约60%</i><i>新：2000+</i><i>旧：300</i><i>同产品竞争：0或询问渠道</i><i class='kong'>12345</i><i>&nbsp&nbsp50万+</i><i>2万+</i><i>1万+</i>
+								</div>
+							</li>
+							<li class='clearfix'>
+								<div class='l qd'>钱派试玩</div>
+								<div class='l clearfix'>
+									<i>30%</i><i>&nbsp3%</i><i>约40%</i><i>新：2000+</i><i>旧：300</i><i>同产品竞争：0或询问渠道</i><i class='kong'>12345</i><i>&nbsp&nbsp40万+</i><i>1万+</i><i>5000+</i>
+								</div>
+							</li>
+						</ul>
+					</div> 
+				</li>
+				<li class='clearfix'>
+					<div class='l'><p class='dqd'>二级稳定投放渠道</p></div>
+					<div class='l'>
+						<ul class='qdxq'>
+							<li class='clearfix'>
+								<div class='l qd'>易米商务</div>
+								<div class='l clearfix'>
+									<i>&nbsp5%</i><i>10%</i><i>约90%</i><i>新：&nbsp&nbsp&nbsp1万+</i><i>旧：500</i><i>同产品竞争：0或询问渠道</i><i class='kong'>12345</i><i>100万+</i><i>5万+</i><i>1万+</i>
+								</div>	
+							</li>
+							<li class='clearfix'>
+								<div class='l qd'>米淘赚</div>
+								<div class='l clearfix'>
+									<i>10%</i><i>&nbsp8%</i><i>约60%</i><i>新：2000+</i><i>旧：300</i><i>同产品竞争：0或询问渠道</i><i class='kong'>12345</i><i>&nbsp&nbsp50万+</i><i>2万+</i><i>1万+</i>
+								</div>
+							</li>
+							<li class='clearfix'>
+								<div class='l qd'>懒猫试玩</div>
+								<div class='l clearfix'>
+									<i>30%</i><i>&nbsp3%</i><i>约40%</i><i>新：2000+</i><i>旧：300</i><i>同产品竞争：0或询问渠道</i><i class='kong'>12345</i><i>&nbsp&nbsp40万+</i><i>1万+</i><i>5000+</i>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</li>
+				<li class='clearfix'>
+					<div class='l'><p class='dqd'>上升建议增量渠道</p></div>
+					<div class='l'>
+						<ul class='qdxq'>
+							<li class='clearfix'>
+								<div class='l qd'>51赚钱</div>
+								<div class='l clearfix'>
+									<i>&nbsp5%</i><i>10%</i><i>约90%</i><i>新：&nbsp&nbsp&nbsp1万+</i><i>旧：500</i><i>同产品竞争：0或询问渠道</i><i class='kong'>12345</i><i>100万+</i><i>5万+</i><i>1万+</i>
+								</div>	
+							</li>
+							<li class='clearfix'>
+								<div class='l qd'>熊猫试玩</div>
+								<div class='l clearfix'>
+									<i>10%</i><i>&nbsp8%</i><i>约20%</i><i>新：2000+</i><i>旧：300</i><i>同产品竞争：0或询问渠道</i><i class='kong'>12345</i><i>&nbsp&nbsp10万+</i><i>2万+</i><i>1万+</i>
+								</div>
+							</li>
+							<li class='clearfix'>
+								<div class='l qd'>闯奇</div>
+								<div class='l clearfix'>
+									<i>30%</i><i>&nbsp3%</i><i>约10%</i><i>新：2000+</i><i>旧：300</i><i>同产品竞争：0或询问渠道</i><i class='kong'>12345</i><i>&nbsp&nbsp40万+</i><i>1万+</i><i>1000+</i>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</li>
+				<li class='clearfix'>
+					<div class='l'><p class='dqd'>测试中渠道</p></div>
+					<div class='l'>
+						<ul class='qdxq'>
+							<li class='clearfix'>
+								<div class='l qd'>贝也赚</div>
+								<div class='l clearfix'>
+									<i>&nbsp5%</i><i>10%</i><i>约10%</i><i>新：&nbsp&nbsp&nbsp1万+</i><i>旧：500</i><i>同产品竞争：0或询问渠道</i><i class='kong'>12345</i><i>100万+</i><i>5万+</i><i>1万+</i>
+								</div>	
+							</li>
+							<li class='clearfix'>
+								<div class='l qd'>万普</div>
+								<div class='l clearfix'>
+									<i>10%</i><i>&nbsp8%</i><i>约10%</i><i>新：2000+</i><i>旧：300</i><i>同产品竞争：0或询问渠道</i><i class='kong'>12345</i><i>&nbsp&nbsp50万+</i><i>2万+</i><i>1万+</i>
+								</div>
+							</li>
+							<li class='clearfix'>
+								<div class='l qd'>锦鲤试玩</div>
+								<div class='l clearfix'>
+									<i>10%</i><i>&nbsp3%</i><i>约10%</i><i>新：2000+</i><i>旧：300</i><i>同产品竞争：0或询问渠道</i><i class='kong'>12345</i><i>&nbsp&nbsp40万+</i><i>1万+</i><i>5000+</i>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</li>
+				<li class='clearfix'>
+					<div class='l'><p class='dqd'>风险/暂停投放渠道</p></div>
+					<div class='l'>
+						<ul class='qdxq'>
+							<li class='clearfix'>
+								<div class='l qd'>热葫芦</div>
+								<div class='l clearfix'>
+									<i>&nbsp5%</i><i>10%</i><i>约90%</i><i>新：&nbsp&nbsp&nbsp1万+</i><i>旧：500</i><i>同产品竞争：0或询问渠道</i><i class='kong'>12345</i><i>100万+</i><i>5万+</i><i>1万+</i>
+								</div>	
+							</li>
+							<li class='clearfix'>
+								<div class='l qd'>御风翱翔</div>
+								<div class='l clearfix'>
+									<i>10%</i><i>&nbsp8%</i><i>约60%</i><i>新：2000+</i><i>旧：300</i><i>同产品竞争：0或询问渠道</i><i class='kong'>12345</i><i>&nbsp&nbsp50万+</i><i>2万+</i><i>1万+</i>
+								</div>
+							</li>
+							<li class='clearfix'>
+								<div class='l qd'>蜜蜂试玩</div>
+								<div class='l clearfix'>
+									<i>30%</i><i>&nbsp3%</i><i>约40%</i><i>新：2000+</i><i>旧：300</i><i>同产品竞争：0或询问渠道</i><i class='kong'>12345</i><i>&nbsp&nbsp40万+</i><i>1万+</i><i>5000+</i>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</li>
+				<li class='clearfix'>
+					<div class='l'><p class='dqd'>未接入/投放渠道</p></div>
+					<div class='l'>
+						<ul class='qdxq'>
+							<li class='clearfix'>
+								<div class='l qd'>爱普优邦</div>
+								<div class='l clearfix'>
+									<i>账期较短</i>
+								</div>	
+							</li>
+							<li class='clearfix'>
+								<div class='l qd'>小鱼赚钱</div>
+								<div class='l clearfix'>
+									<i>账期较短，理财产品较好</i>
+								</div>
+							</li>
+							<li class='clearfix'>
+								<div class='l qd'>钱派试玩</div>
+								<div class='l clearfix'>
+									<i>账期较短，不接受核减</i>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</li>
+			</ul>
+	    </div>
+		<div class='content'>
+			<h4>四：渠道投放详情</h4>
+			<div id="lineMain" class="content_all"></div>
+		</div>
+	    <!-- <div id="lineMain" class="content_all"></div>
+	    <div class="part clearfix">
+	        <div class="l" id="lineMain2" style="height:400px;width:44%;"></div>
+	        <div class="r" id="lineMain3" style="height:400px;width:44%;"></div>
+	    </div>
+	    <div class="part clearfix">
+	        <div class="l" id="lineMain4" style="height:400px;width:44%;"></div>
+	        <div class="r" id="lineMain5" style="height:400px;width:44%;"></div>
+	    </div> -->
+
+	</div>
+	<script src="http://echarts.baidu.com/build/dist/echarts.js"></script>
+	<script type="text/javascript">
+		// 路径配置
+	    require.config({
+	    　　paths: {
+	    　　　　echarts: 'http://echarts.baidu.com/build/dist'
+	    　　}
+	    });
+	// 使用
+	    require(
+	    　　　　　　[
+	    　　　　　　　　'echarts',
+	    				'echarts/chart/pie',
+	    　　　　　　　　'echarts/chart/bar',
+	    　　　　　　　　'echarts/chart/line'
+	    　　　　　　],
+	    　　　　　　drawEcharts
+	    );
+	 
+	    function drawEcharts(ec){
+	    　　drawLine(ec);
+	        drawLine2(ec);
+	        drawLine3(ec);
+	        drawLine4(ec);
+	        drawLine5(ec);
+	    }
+	   
+	 
+	    function drawLine(ec){
+	    　　var myLineChart = ec.init(document.getElementById('lineMain'));
+
+	    	var data1=[100, 0, 0, 0, 0]
+	    	var data2=[100, 100, 701, 734]
+
+	        option = {
+			    tooltip : {
+			        trigger: 'axis',
+			        axisPointer : {            // 坐标轴指示器，坐标轴触发有效
+			            type : 'shadow'        // 默认为直线，可选为：'line' | 'shadow'
+			        }
+			    },
+			    legend: {
+			        data:['爱普优邦','小鱼赚钱','蜜蜂试玩','钱派试玩','易赚','凡客','钱咖','热葫芦','米淘赚','易米','天天钱庄','小啄赚钱']
+			    },
+			    grid: {
+			        left: '3%',
+			        right: '4%',
+			        bottom: '3%',
+			        containLabel: true
+			    },
+			    xAxis : [
+			        {
+			            type : 'category',
+			            data : ['京东商城','小黑鱼','DADA英语','优信二手车']
+			        }
+			    ],
+			    yAxis : [
+			        {
+			            type : 'value'
+			        }
+			    ],
+			    series : [	
+
+			        {
+			            name:'小啄赚钱',
+			            type:'bar',
+			            stack: '三',
+			            data:data1,
+			            label:{
+	            			show:true,
+	            			position:'top',
+	            			formatter:function(params){
+	            				if(params.value>0){
+	            					return params.value;
+	            				}else{
+	            					return'';
+	            				}
+	            			}
+	            		}
+			        },
+			        {
+			            name:'天天钱庄',
+			            type:'bar',
+			            stack: '三',
+			            data:data2
+			        },
+			        {
+			            name:'易米',
+			            type:'bar',
+			            stack: '二',
+			            data:[0, 400, 701, 734]
+			        },
+			        {
+			            name:'米淘赚',
+			            stack: '二',
+			            type:'bar',
+			            data:[1000, 0, 964, 1026]
+			        },
+			         {
+			            name:'热葫芦',
+			            type:'bar',
+			            stack: '四',
+			            data:[]
+			        },
+			        {
+			            name:'钱咖',
+			            type:'bar',
+			            stack: '一',
+			            data:['-', 700, 964, 1026, 1679]
+			        },
+			        {
+			            name:'凡客',
+			            type:'bar',
+			            stack: '一',
+			            data:[0, 0, 201, 154, 190, 330]
+			        },
+			        {
+			            name:'易赚',
+			            type:'bar',
+			            stack: '二',
+			            data:[400, 0, 101, 134, 90, 230]
+			        },
+			        {
+			            name:'钱派试玩',
+			            type:'bar',
+			            stack: '一',
+			            data:[0, 1300, 191, 234, 290]
+			        },
+			        {
+			            name:'蜜蜂试玩',
+			            type:'bar',
+			            stack: '一',
+			            data:[700, 0, 91, 84, 109, 110]
+			        },
+			        {
+			            name:'小鱼赚钱',
+			            type:'bar',
+			            stack: '一',
+			            data:[800, 500, 101, 134, 90]
+			        }, 
+			        {
+			            name:'爱普优邦',
+			            type:'bar',
+			            stack: '一',
+			            data:[1000, 900, 301, 334, 390]
+			        }
+			    ]
+			};
+
+	        myLineChart.setOption(option,true);
+	    }
+
+
+	    function drawLine2(ec){
+	    　　var myLineChart = ec.init(document.getElementById('lineMain2'));
+
+	        var option2 = {
+	            title: {
+	                text: '截止31日回合同占比'
+	            },
+	            tooltip : {
+	                trigger: 'axis',
+	                axisPointer: {
+	                    type: 'cross',
+	                    label: {
+	                        backgroundColor: '#6a7985'
+	                    }
+	                }
+	            },
+	            legend: {
+	                data:['回合同占比']
+	            },
+	            toolbox: {
+	                feature: {
+	                    saveAsImage: {}
+	                }
+	            },
+	            grid: {
+	                left: '3%',
+	                right: '4%',
+	                bottom: '3%',
+	                containLabel: true
+	            },
+	            xAxis : [
+	                {
+	                    type : 'category',
+	                    boundaryGap : false,
+	                    data : ['1周','2周','3周','4周','5周']
+	                }
+	            ],
+	            yAxis : [
+	                {
+	                    type: 'value',
+	                    name: '占比',
+	                    min: 0,
+	                    max: 100,
+	                    interval: 50,
+	                    axisLabel: {
+	                        formatter: '{value} %'
+	                    }
+	                }
+	            ],
+	            series : [
+	                {
+	                    name:'回合同占比',
+	                    type:'line',
+	                    stack: '总量',
+	                    areaStyle: {normal: {}},
+	                    data:[90, 87, 70, 65, 59]
+	                },
+	            ]
+	        };
+	        myLineChart.setOption(option2,true);
+	    }
+
+	    function drawLine3(ec){
+	    　　var myLineChart = ec.init(document.getElementById('lineMain3'));
+	        var option3 = {
+	            title: {
+	                text: '截止31日回款占比'
+	            },
+	            tooltip : {
+	                trigger: 'axis',
+	                axisPointer: {
+	                    type: 'cross',
+	                    label: {
+	                        backgroundColor: '#6a7985'
+	                    }
+	                }
+	            },
+	            legend: {
+	                data:['回款占比']
+	            },
+	            toolbox: {
+	                feature: {
+	                    saveAsImage: {}
+	                }
+	            },
+	            grid: {
+	                left: '3%',
+	                right: '4%',
+	                bottom: '3%',
+	                containLabel: true
+	            },
+	            xAxis : [
+	                {
+	                    type : 'category',
+	                    boundaryGap : false,
+	                    data : ['1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26','27','28','29','30','31']
+	                }
+	            ],
+	            yAxis : [
+	                {
+	                    type: 'value',
+	                    axisLabel: {
+	                        formatter: '{value} %'
+	                    }
+	                }
+	            ],
+	            series : [
+	                 {
+	                    name:'回款占比',
+	                    type:'line',
+	                    stack: '总量',
+	                    areaStyle: {normal: {}},
+	                    data:[90, 80, 60, 72, 73, 74, 80, 85, 70, 90, 80, 60, 59, 100, 80, 90, 70, 60, 66, 50, 45, 40, 38, 20, 18, 90, 40, 60,]
+	                }
+	            ]
+	        }
+	        myLineChart.setOption(option3,true);
+	    }
+
+	    function drawLine4(ec){
+	    　　var myLineChart = ec.init(document.getElementById('lineMain4'));
+	        var option4 = {
+	            title: {
+	                text: '截止31日回合同占比'
+	            },
+	            tooltip: {
+	                trigger: 'axis',
+	                axisPointer: {
+	                    type: 'cross',
+	                    crossStyle: {
+	                        color: '#999'
+	                    }
+	                }
+	            },
+	            toolbox: {
+	                feature: {
+	                    dataView: {show: true, readOnly: false},
+	                    magicType: {show: true, type: ['line', 'bar']},
+	                    restore: {show: true},
+	                    saveAsImage: {show: true}
+	                }
+	            },
+	            legend: {
+	                data:['数量','返回比例']
+	            },
+	            xAxis: [
+	                {
+	                    type: 'category',
+	                    data: ['有合同有款','有合同无款','无合同有款','无合同无款'],
+	                    axisPointer: {
+	                        type: 'shadow'
+	                    }
+	                }
+	            ],
+	            yAxis: [
+	                {
+	                    type: 'value',
+	                    name: '个数',
+	                    min: 0,
+	                    max: 250,
+	                    interval: 50,
+	                    axisLabel: {
+	                        formatter: '{value} 个'
+	                    }
+	                },
+	                {
+	                    type: 'value',
+	                    name: '占比',
+	                    min: 0,
+	                    max: 100,
+	                    interval: 50,
+	                    axisLabel: {
+	                        formatter: '{value} %'
+	                    }
+	                }
+	            ],
+	            series: [
+	                {
+	                    name:'数量',
+	                    type:'bar',
+	                    data:[ 150, 24, 135, 30, 60, 200, 10, 203]
+
+	                },
+	                {
+	                    name:'返回比例',
+	                    type:'line',
+	                    yAxisIndex: 1,
+	                    data:[100, 100, 60, 50]
+	                },
+	            ]
+	        };
+	        myLineChart.setOption(option4,true);
+	    }
+	    function drawLine5(ec){
+	    　　var myLineChart = ec.init(document.getElementById('lineMain5'));
+	        var option5 = {
+	            title: {
+	                text: '截止31日回款占比'
+	            },
+	            tooltip: {
+	                trigger: 'axis',
+	                axisPointer: {
+	                    type: 'cross',
+	                    crossStyle: {
+	                        color: '#999'
+	                    }
+	                }
+	            },
+	            toolbox: {
+	                feature: {
+	                    dataView: {show: true, readOnly: false},
+	                    magicType: {show: true, type: ['line', 'bar']},
+	                    restore: {show: true},
+	                    saveAsImage: {show: true}
+	                }
+	            },
+	            legend: {
+	                data:['数量','返回比例']
+	            },
+	            xAxis: [
+	                {
+	                    type: 'category',
+	                    data: ['有合同有款','有合同无款','无合同有款','无合同无款'],
+	                    axisPointer: {
+	                        type: 'shadow'
+	                    }
+	                }
+	            ],
+	            yAxis: [
+	                {
+	                    type: 'value',
+	                    name: '个数',
+	                    min: 0,
+	                    max: 250,
+	                    interval: 50,
+	                    axisLabel: {
+	                        formatter: '{value} 个'
+	                    }
+	                },
+	                {
+	                    type: 'value',
+	                    name: '占比',
+	                    min: 0,
+	                    max: 100,
+	                    interval: 50,
+	                    axisLabel: {
+	                        formatter: '{value} %'
+	                    }
+	                }
+	            ],
+	            series: [
+	                {
+	                    name:'数量',
+	                    type:'bar',
+	                    data:[ 150, 24, 135, 30, 60, 200, 10, 203]
+
+	                },
+	                {
+	                    name:'返回比例',
+	                    type:'line',
+	                    yAxisIndex: 1,
+	                    data:[100, 47, 100, 80]
+	                },
+	            ]
+	        };
+	        myLineChart.setOption(option5,true);
+	    }
+		
+	</script>
+	
+
+
+
+</body>
+</html>
